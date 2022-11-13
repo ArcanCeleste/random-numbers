@@ -1,4 +1,4 @@
-# color-generator
+# Random Numbers
 Created By Guilherme de Paula da Silva. <br/>
 This project is a random number generator that generate odd, even, negative and positive numbers.  <br/><br/>
 [My site on web](https://random-numbers-guilherme.web.app/)
