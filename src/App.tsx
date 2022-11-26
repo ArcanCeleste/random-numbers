@@ -1,5 +1,6 @@
 import { ChangeEvent, useState } from 'react'
 import './App.css'
+import { transformNumber } from './helpers/formatNum';
 import { fbConfig } from './firebase/firebase';
 
 function App() {
@@ -109,7 +110,7 @@ function App() {
           <div style={{
             color: (resultNumber > 0) ? 'green' : (resultNumber < 0) ? 'red' : 'black'
           }} className='resultArea'>
-            {resultNumber}
+            {transformNumber(resultNumber.toString())}
           </div>
         }
         {errorCalc &&
